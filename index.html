@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Web || Juvencio Penga</title>
+</head>
+
+<style>
+    @font-face {
+    font-family: 'poppinsSB';
+    src: url('fonts/Poppins-SemiBold.ttf');
+}
+    @font-face {
+    font-family: 'poppinsReg';
+    src: url('font/Poppins-Regular.ttf');
+}
+</style>
+<link rel="stylesheet" href="bootstrap/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsiva.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer>
+</script>
+<script type="text/javascript" defer>
+   (function(){
+      emailjs.init({
+        publicKey: "-aHpxH8thiRZTwQov",
+      });
+   })();
+</script>
+<body>
+    <header id="m-header">
+        <h2 id="logo">
+           <span class="span">J</span>
+           <span class="span">U</span>
+           <span class="span">V</span>
+           <span class="span">Ê</span>
+           <span class="span">N</span>
+           <span class="span">C</span>
+           <span class="span">I</span>
+           <span class="span">O</span>
+        </h2>
+           <div class="containerLinks">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" id="inicio"><i class="bi bi-house"></i>INICIO</a></li>
+                    <li><a href="#sobre" id="sobre"><i class="bi bi-person"></i> SOBRE</a></li>
+                    <li><a href="#skills" id="skills"><i class="bi bi-folder"></i>SKILLS</a></li>
+                    <li><a href="#projects" id="projetos"><i class="bi bi-briefcase"></i>PROJECTOS</a></li>
+                    <li class="contacto"><a href="#contacto" id="contactos" ><i class="bi bi-envelope"></i> CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="menu_humburger">
+                <div class="m">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="l">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="sectionInicio">
+        <section class="imagem">
+            <div class="photo-container">
+                <img src="img/dev.png" alt="developer" class="profile-pic"> 
+                <div class="aura"></div>
+            </div>
+        </section>
+        <section class="here">
+               <div class="hire-me">
+                   <h2 class="m-1">Hey, eu sou <span>Juvêncio Penga,</span></h2>
+                    <p class="typing-text"><span></span></p>
+                    <p class="aboutme">Sou um programador que carrega a precisão da matemática em cada linha de código, transformando lógica em arte e problemas em soluções capazes de mudar realidades.</p>
+                    
+                    <div class="social">
+                        <a href="" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/juvêncio-filipe-penga-933752383" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100077638702517"><i class="bi bi-facebook"></i></a>
+                        <a href="wa.link/jq5rn4"><i class="bi bi-whatsapp"></i></a>
+                        <a href=""><i class="bi bi-telegram"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                    </div>
+                    <li class="btn">
+                        <a href="#contacto" class="btn-contacto">Entre em contacto</a>
+                    </li>
+               </div> 
+        </section>
+    </main>
+    <section id="sectionSobre">
+        <h3>Sobre Mim</h3>
+        <div class="slider-sobre">
+            <div class="slide">
+                <i class="bi bi-person-bounding-box"></i>
+                <div class="contentinfo">
+                    <h2>Quem Sou eu ?</h2>
+                    <p>Sou programdor e Matemático apaixonado por resolver problemas</p>
+                    <a href="#Contact" class="btn-sobre">Contacte-me</a>
+                </div>
+            </div>
+            <div class="slide">
+                <i class="bi bi-code-slash"></i>
+                <div class="contentinfo">
+                    <h2>O que eu faço ?</h2>
+                    <p>Desenvolvo métodos e soluções web e softwares que unem lógica e criatividade.</p>
+                    <a href="#Contact" class="btn-sobre">Contacte-me</a>
+                </div>    
+            </div>
+            <div class="slide">
+                <i class="bi bi-lightbulb"></i>
+                <div class="contentinfo">
+                    <h2>Minha Missão</h2>
+                    <p>Transformar ideias em projectos funcionais, com impacto real e visualmente deslumbrantes.</p>
+                    <a href="#Contact" class="btn-sobre" >Contacte-me</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+  
+    <section id="sectionSkills">
+        <div class="lap">
+            <h2 class="section-title">MINHAS SKILLS <span><i class="bi bi-code-slash"></i></span></h2>
+        </div>
+        <div class="containerSkills">
+            <div class="skill">
+                <i class="bi bi-filetype-html"></i>
+                <h2>HTML</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 88%;">
+                        <p>88%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-filetype-css"></i>
+                <h2>CSS</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 73.5%;">
+                        <p>73.5%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-filetype-js"></i>
+                <h2>JAVASCRIPT</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 59%;">
+                        <p>59%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-bootstrap"></i>
+                <h2>BOOTSTRAP</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 95%;">
+                        <p>95%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-braces"></i>
+                <h2>PYTHON</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 70%;">          <p>70%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-gear-fill"></i>
+                <h2>PHP</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 68%;">          <p>68%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-git"></i>
+                <h2>GIT</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 80%;">          <p>80%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="bi bi-cup-hot"></i>
+                <h2>JAVA</h2>
+                <div class="content-percent">
+                    <div class="percent" style="width: 55%;">          <p>55%</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+
+    </section>
+
+    <!-- <section id="sectionProjectos"> </section> -->
+    <section id="sectionContacts">
+        <form id="contact-form">
+            <h2>Deixe sua mensagem</h2>
+            <div class="containerdev">
+                <div class="cont">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="from_name" id="nome" placeholder="Seu Nome..." required>
+                </div>
+                <div class="cont">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="reply_to" placeholder="Seu E-mail..." required>
+                </div>
+                <div class="msg">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="text" id="mensagem" name="message" placeholder="Sua Mensagem..." rows="3" required ></textarea>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>    
+    </section>
+
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Este site utiliza cookies para melhorar sua experiência.</p>
+        <button id="accept-cookies">Aceitar</button>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
