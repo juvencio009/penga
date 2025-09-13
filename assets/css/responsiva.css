@@ -323,7 +323,7 @@
     form{max-width: 260px;}
       form .containerdev .cont{
         width: 100%;
-        height: 60px;}
+        height: 75px;}
          .msg{
         height: 120px;
         padding: 8px;}
@@ -335,6 +335,9 @@
     .containerSkills{
         margin-top: 150px;
     }
+    .containerdev .cont input{
+        width: 100%;
+        height: 56px;}
     .content-percent{
         height: 14px;
         width: 80%;

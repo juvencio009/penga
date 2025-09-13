@@ -22,16 +22,8 @@
 
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsiva.css">
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer>
-</script>
-<script type="text/javascript" defer>
-   (function(){
-      emailjs.init({
-        publicKey: "-aHpxH8thiRZTwQov",
-      });
-   })();
-</script>
+
+
 <body>
     <header id="m-header">
         <h2 id="logo">
@@ -209,18 +201,21 @@
             <div class="containerdev">
                 <div class="cont">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" name="from_name" id="nome" placeholder="Seu Nome..." required>
+                    <input type="text" name="user_name" id="nome" placeholder="Seu Nome..." required>
                 </div>
                 <div class="cont">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="reply_to" placeholder="Seu E-mail..." required>
+                    <input type="email" id="email" name="user_email" placeholder="Seu E-mail..." required>
                 </div>
                 <div class="msg">
                     <label for="mensagem">Mensagem</label>
                     <textarea type="text" id="mensagem" name="message" placeholder="Sua Mensagem..." rows="3" required ></textarea>
                 </div>
             </div>
-            <button type="submit">Enviar</button>
+           <button type="submit" id="submit-btn">
+  Enviar
+  <span id="check-icon" style="display:none;">✔️</span>
+</button>
         </form>    
     </section>
 
@@ -229,7 +224,9 @@
         <p>Este site utiliza cookies para melhorar sua experiência.</p>
         <button id="accept-cookies">Aceitar</button>
     </div>
-
+  <!-- scripts EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
