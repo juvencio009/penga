@@ -10,6 +10,5 @@ Este repositório contém o meu portfólio pessoal, criado com o objetivo de apr
 
 ## 🎯 Objetivo  
 O objetivo deste portfólio é oferecer uma apresentação formal e organizada sobre mim e meu trabalho, servindo como ponto de referência para contatos profissionais e oportunidades futuras.  
-
 ## 🔗 Demonstração  
-👉 [Acesse aqui o portfólio](link_do_portfolio)  
+👉 [Acesse aqui o portfólio](juvencio-penga.netlify.app)  
